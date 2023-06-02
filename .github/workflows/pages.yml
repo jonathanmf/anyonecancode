@@ -97,7 +97,7 @@ jobs:
 
       - name: Download build of static website
         uses: actions/download-artifact@v3
-        if: github.repository_owner == 'jonathanmf'
+        if: github.repository_owner == 'microsoft'
         with:
           name: static-website
           path: dist/instructions
